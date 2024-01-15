@@ -4,6 +4,12 @@ public class OPP {
 
         ClassA classA = new ClassA();
         classA.methodA();
+        // Calling methodA() from ClassA for multiple times
+        ClassA ClassA_2 = new ClassA();
+        ClassA_2.methodA();
+
+        ClassA ClassA_3 = new ClassA();
+        ClassA_3.methodA();
 
         ClassB classB = new ClassB();
         classB.methodB();
