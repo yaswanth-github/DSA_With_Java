@@ -1,18 +1,28 @@
-## Getting Started
+# Java
+Java is a high-level, platform-independent, object-oriented programming language.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Java Programming Structure
+Java programs consist of classes and methods.
+The main method is the entry point of a Java program.
+Statements in Java end with a semicolon `;`.
 
-## Folder Structure
+## Variables and Data Types:
+<h3>Variables</h3>
+Variables are containers for storing data.
 
-The workspace contains two folders by default, where:
+Variables must be declared before use.
+<h3>Data Types in Java</h3>
+Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Non-Primitive Data Type or Object Data type: such as String, Array, etc.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![Data Types in Java](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191105111644/Data-types-in-Java.jpg)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Object-Oriented Programming (OOP):
 
-## Dependency Management
+Encapsulation, Inheritance, Polymorphism, Abstraction are the four pillars of OOP.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Classes and Objects:
+
+* Classes are blueprints for objects.
+* Objects are instances of classes.
