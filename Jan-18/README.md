@@ -5,7 +5,7 @@
  * @param `b` The second number.
  * @return The `sum` of the two numbers.
 
-```
+```java
 public int calculateSum(int a, int b) 
     {
         // Note: The return statement returns the sum of the two numbers.

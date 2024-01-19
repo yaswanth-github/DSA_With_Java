@@ -23,7 +23,7 @@ In Java, you can take input from the user using the `Scanner` class, which is pa
 
 First, you need to import the `Scanner` class at the beginning of your Java file:
 
-```
+```java
 import java.util.Scanner;
 ````
 
@@ -32,7 +32,7 @@ import java.util.Scanner;
 <h3>2. Create a Scanner Object </h3>
 create a Scanner object to read input from the user. You can do this in your main method or any other method where you want to take input.
 
-```
+```java
 Scanner scanner = new Scanner(System.in);
 ```
 
@@ -57,7 +57,7 @@ System.out.println("You entered: " + num);
 ```
 <h4>Reading String:</h4>
 
-```
+```java
 System.out.print("Enter a string: ");
 String input = scanner.nextLine();
 System.out.println("You entered: " + input);
@@ -65,7 +65,7 @@ System.out.println("You entered: " + input);
 
 <h4>Close the Scanner:</h4>
 
-```
+```java
 scanner.close();
 ```
 
@@ -75,7 +75,7 @@ In Java, the `for` loop is used to iterate over a sequence of elements. It is es
 
 The basic syntax of a `for` loop is as follows:
 
-```
+```java
 for (initialization; condition; update) {
     // code to be executed in each iteration
 }
@@ -87,7 +87,7 @@ for (initialization; condition; update) {
 
 Let's go through a simple example that prints numbers from 1 to 5 using a for loop:
 
-```
+```java
 public class ForLoopExample {
     public static void main(String[] args) {
         // Using a for loop to print numbers from 1 to 5
@@ -102,7 +102,7 @@ public class ForLoopExample {
 
 You can also use nested for loops to create more complex patterns or iterate over two-dimensional arrays.
 
-```
+```java
 public class NestedForLoopExample {
     public static void main(String[] args) {
         // Using nested for loops to print a simple pattern

@@ -1,5 +1,5 @@
 package bcd;
-import abc.A;
+import ab.A;
 
 public class B {
     int c = 30;

@@ -63,14 +63,14 @@ Loops in Java are used to repeatedly execute a block of code until a certain con
 The for loop is used when the number of iterations is known beforehand. It consists of an initialization, a condition, and an increment/decrement statement.
 
 Syntax:
-```
+```java
 for(initialization; condition; increment/decrement){    
 //statement or code to be executed    
 }    
 ```
 
 Example Program :
-```
+```java
 public class ForExample {  
 public static void main(String[] args) {  
     //Code of Java for loop  
@@ -85,7 +85,7 @@ public static void main(String[] args) {
 ### while loop:
 The while loop is used when the number of iterations is not known beforehand, but a condition needs to be checked before each iteration.
 Syntax :
-```
+```java
 while (boolean condition)
 {
     statements...
@@ -93,7 +93,7 @@ while (boolean condition)
 }
 ```
 Example Program :
-```
+```java
 public class WhileExample {  
 public static void main(String[] args) {  
     int i=10;  
@@ -109,7 +109,7 @@ public static void main(String[] args) {
 The do-while loop is similar to the while loop, but the condition is checked after each iteration. This guarantees that the loop will execute at least once.
 
 Syntax:
-```
+```java
 do{    
 
 //code to be executed / loop body  
@@ -120,7 +120,7 @@ do{
 ```
 
 Example Program :
-```
+```java
 public class DoWhileExample {    
 public static void main(String[] args) {    
     int i=1;    
@@ -137,7 +137,7 @@ public static void main(String[] args) {
 The switch case statement in Java is used to execute different blocks of code based on the value of a variable or an expression. It provides an alternative to using multiple if-else statements.
 
 The syntax of the switch case statement is as follows:
-```
+```java
 switch(expression) {
   case x:
     // code block
@@ -150,7 +150,7 @@ switch(expression) {
 }
 ```
 Example:
-```
+```java
 int day = 4;
 switch (day) {
   case 6:
@@ -170,7 +170,7 @@ switch (day) {
 If-else statements in Java are used to make decisions based on certain conditions. They allow the program to execute different blocks of code depending on whether a condition is true or false.
 
 The syntax of an if-else statement is as follows:
-```
+```java
 if (condition) {
   // block of code to be executed if the condition is true
 } 
@@ -180,7 +180,7 @@ else {
 }
 ```
 Example:
-```
+```java
 int time = 20;
 
 if (time < 18) {

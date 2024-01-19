@@ -1,5 +1,5 @@
 package abc;
-import bcd.B;
+import cd.B;
 
 public class A {
     int a = 10;
