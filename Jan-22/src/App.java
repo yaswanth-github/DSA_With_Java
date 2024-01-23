@@ -18,9 +18,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         App obj = new App();
         obj.a = 5;
-        obj.b = 6;  // static variable can be accessed by object
+        // obj.b = 6;  // static variable can be accessed by object
         System.out.println(obj.a); 
-        System.out.println(obj.b); 
+        // System.out.println(obj.b); 
         obj.c();
         System.out.println(obj.c()); // static variable can be accessed by object
 
@@ -43,10 +43,10 @@ class B extends App{
 
     public static void main(String[] args) throws Exception {
         B obj = new B(); 
-        System.out.println(obj.b); 
+        // System.out.println(obj.b); 
         System.out.println(b);
         obj.d();
         obj.c();
-        obj.inherited();
+        // obj.inherited();
     }
 }
