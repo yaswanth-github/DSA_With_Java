@@ -6,7 +6,7 @@ public class App {
     }
     
     public static void main(String[] args) throws Exception {
-        App obj = new App();
+        Ternary_Operator obj = new Ternary_Operator();
         
         System.out.println(obj.toString());
     }
