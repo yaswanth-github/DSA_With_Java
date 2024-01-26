@@ -50,6 +50,32 @@ int[] age;
 age = new int[5];
 ```
 
+### Multi Dimensional Array
 
+It is also called as rectangular array because it has same length of each row.
+
+It is two or three or more dimensional array
+
+It contains more than one row to store data
+
+To assue or storing the data need to use nested loop
+
+```java
+int[][] two_d_array = new int[3][2] // 3 Rows and 2 Columns
+```
+Example:
+```java
+int marks[][] = {
+    {40,50,40,50,40}
+    {36,45,41,39,44}
+    {49,47,39,42,40}
+}
+
+for (int i=0; i < 3; i++ ){
+    for(int j=0; j < 5; j++){
+        System.out.println(marks[i][j])
+    }
+}
+```
 
 
