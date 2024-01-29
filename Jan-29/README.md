@@ -1,4 +1,3 @@
-
 ## TreeSet
 
 TreeSet is one of the most important implementations of the SortedSet interface in Java.
@@ -78,4 +77,53 @@ Vector == ArrayList
 
 - Vector is a special type of ArrayList that defines a dynamic array
 - ArrayList is not sync while Vector is sync
+
+## HashMap
+
+HashMap is a class in Java that implements the Map interface. It is used to store key-value pairs, where each key is unique. Here are some key points about HashMap:
+
+- It does not maintain any order of the elements.
+- It allows null values for both keys and values.
+- It provides constant-time performance for basic operations like get and put.
+
+Example:
+```java
+import java.util.HashMap;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+        // Create a new HashMap
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // Add key-value pairs to the HashMap
+        map.put("John", 25);
+        map.put("Jane", 30);
+        map.put("Mike", 35);
+
+        // Access values using keys
+        int johnAge = map.get("John");
+        System.out.println("John's age: " + johnAge);
+
+        // Update a value
+        map.put("Jane", 31);
+
+        // Remove a key-value pair
+        map.remove("Mike");
+
+        // Iterate over the HashMap
+        for (String name : map.keySet()) {
+            int age = map.get(name);
+            System.out.println(name + "'s age: " + age);
+        }
+    }
+}
+```
+## LinkedHashmap
+
+
+
+## BufferedInputStream
+
+
+
 
