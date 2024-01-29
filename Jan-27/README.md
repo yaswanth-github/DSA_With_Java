@@ -153,17 +153,9 @@ public class Example {
 ### PriorityQueue
 
 - min heap data structure
+- Dupicates are alllowed
 
 ```java
 Queue car = new PriorityQueue();
 car.add("Elements...")
-```
-
-## TreeSet
-
-TreeSet is one of the most important implementations of the SortedSet interface in Java.
-
-```java
-TreeSet ts = new TreeSet(); 
-
 ```
