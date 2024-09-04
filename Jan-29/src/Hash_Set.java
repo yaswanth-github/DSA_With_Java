@@ -19,7 +19,6 @@ public class Hash_Set {
         set.remove("Apple");
         System.out.println("Set after removing = " + set);
     }
-
 }
 
 class Linked_Hash_Set {
